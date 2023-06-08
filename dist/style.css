@@ -526,8 +526,29 @@ video {
   display: flex;
 }
 
-.h-screen {
-  height: 100vh;
+.grid {
+  display: grid;
+}
+
+.h-\[100\%\] {
+  height: 100%;
+}
+
+.h-\[41\.6rem\] {
+  height: 41.6rem;
+}
+
+.max-w-max {
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -538,8 +559,32 @@ video {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .gap-\[1\.7rem\] {
   gap: 1.7rem;
+}
+
+.gap-\[2\.3rem\] {
+  gap: 2.3rem;
+}
+
+.gap-\[3\.2rem\] {
+  gap: 3.2rem;
+}
+
+.gap-\[8rem\] {
+  gap: 8rem;
+}
+
+.rounded-\[0\.6rem\] {
+  border-radius: 0.6rem;
+}
+
+.rounded-\[1\.9rem\] {
+  border-radius: 1.9rem;
 }
 
 .bg-\[\#28293E\] {
@@ -547,14 +592,63 @@ video {
   background-color: rgb(40 41 62 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\.\.\/src\/assets\/branding\.png\)\] {
+  background-image: url(../src/assets/branding.png);
+}
+
+.bg-\[url\(\.\.\/src\/assets\/design\.png\)\] {
+  background-image: url(../src/assets/design.png);
+}
+
+.bg-\[url\(\.\.\/src\/assets\/illustration\.png\)\] {
+  background-image: url(../src/assets/illustration.png);
+}
+
+.bg-\[url\(\.\.\/src\/assets\/motion\.png\)\] {
+  background-image: url(../src/assets/motion.png);
+}
+
+.bg-left-top {
+  background-position: left top;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.px-\[1\.5rem\] {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-\[2\.3rem\] {
   padding-left: 2.3rem;
   padding-right: 2.3rem;
 }
 
+.px-\[2\.8rem\] {
+  padding-left: 2.8rem;
+  padding-right: 2.8rem;
+}
+
+.py-\[0\.3rem\] {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
 .py-\[10\.5rem\] {
   padding-top: 10.5rem;
   padding-bottom: 10.5rem;
+}
+
+.py-\[5rem\] {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .font-epilogue {
@@ -581,6 +675,11 @@ video {
 
 .tracking-\[0\.3rem\] {
   letter-spacing: 0.3rem;
+}
+
+.text-\[\#090039\] {
+  --tw-text-opacity: 1;
+  color: rgb(9 0 57 / var(--tw-text-opacity));
 }
 
 .text-\[\#BBB3E6\] {
