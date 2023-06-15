@@ -45,7 +45,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [TailwindCSS](https://tailwindcss.com)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [NPM](https://www.npmjs.com)
 - [Git](https://git-scm.com)
 - [Figma](https://www.figma.com)
